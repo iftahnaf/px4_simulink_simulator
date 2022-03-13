@@ -25,7 +25,7 @@ plant.mechanical.a_z = 0.007; % [kg/s] drag coefficient - z axis
 
 plant.ic.position.x = 0.0;
 plant.ic.position.y = 0.0;
-plant.ic.position.z = 0.0;
+plant.ic.position.z = 10.0;
 plant.ic.velocity.x = 0.0;
 plant.ic.velocity.y = 0.0;
 plant.ic.velocity.z = 0.0;

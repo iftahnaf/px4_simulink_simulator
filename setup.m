@@ -20,3 +20,6 @@ parameters_plant;
 load('plant_buses.mat')
 %% Control gains
 gains_controller;
+
+%% Open main model
+open('px4_6dof_quadrotor_bus.slx')
