@@ -16,13 +16,6 @@ controller.rate.yaw.i = 0.05;
 controller.rate.yaw.d = 0.0012;
 controller.rate.yaw.int_lim = 100;
 controller.rate.yaw.max = 2.0;
-controller.rate.time_sample = 1/250;
-controller.rate.mc_rr_int_limit = 1000;
-controller.rate.mc_pr_int_limit = 1000;
-controller.rate.mc_yr_int_limit = 1000;
-controller.filters.gyro_cutoff = 0;
-controller.filters.dgyro_cutoff = 0;
-
 
 controller.attitude.roll.p = 4.0;
 controller.attitude.pitch.p = 4.0;
@@ -45,4 +38,4 @@ controller.mixer.matrix = [plant.mechanical.c_t plant.mechanical.c_t plant.mecha
                                  -plant.mechanical.c_t*plant.mechanical.d*sind(45) -plant.mechanical.c_t*plant.mechanical.d*sind(45) plant.mechanical.c_t*plant.mechanical.d*sind(45) plant.mechanical.c_t*plant.mechanical.d*sind(45);...
                                   plant.mechanical.c_q -plant.mechanical.c_q plant.mechanical.c_q -plant.mechanical.c_q];
 
-controller.attitude.time_sample = 1/250;
+controller.mixer_time

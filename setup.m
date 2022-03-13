@@ -17,9 +17,10 @@ end
 clear dir_path backslash_vec dirnames i
 %% Plant parameters
 parameters_plant;
-load('plant_buses.mat')
+
 %% Control gains
 gains_controller;
 
 %% Open main model
+load('busses.mat')
 open('px4_6dof_quadrotor_bus.slx')
