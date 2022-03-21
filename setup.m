@@ -16,10 +16,10 @@ end
 
 clear dir_path backslash_vec dirnames i
 %% Plant parameters
-parameters_plant;
+load_plant;
 
 %% Control gains
-gains_controller;
+load_controller;
 
 %% Open main model
 load('busses.mat')
