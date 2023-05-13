@@ -25,7 +25,7 @@ The 6DOF model based on [this](http://www.ritravvenlab.com/uploads/1/1/8/4/11848
 
 TODO
 - [ ] Add position and velocity controllers.
-- [ ] Convert signals to bus elements.
+- [x] Convert signals to bus elements.
 - [ ] Add INS model.
 - [ ] Add EKF based on px4 architecture.
 - [ ] Add visualization to the simulation.
