@@ -23,13 +23,13 @@ Clone the repository to your PC, add the folder to Matlab path and open the mode
 
 The 6DOF model based on [this](http://www.ritravvenlab.com/uploads/1/1/8/4/118484574/ferry.pdf) thesis work. 
 
-TODO:
-- [] Add position and velocity controllers.
-- [] Convert signals to bus elements.
-- [] Add INS model.
-- [] Add EKF based on px4 architecture.
-- [] Add visualization to the simulation.
-- [] Add motor models instead of the approximate ones.
+TODO
+- [ ] Add position and velocity controllers.
+- [ ] Convert signals to bus elements.
+- [ ] Add INS model.
+- [ ] Add EKF based on px4 architecture.
+- [ ] Add visualization to the simulation.
+- [ ] Add motor models instead of the approximate ones.
 
 # References
 
