@@ -17,14 +17,14 @@ Clone the repository to your PC, add the folder to Matlab path and open the mode
 
 # 6DOF Quadrotor
 
-![](https://user-images.githubusercontent.com/58637596/145676975-8887eae0-8891-474d-96b8-d06f6dcfb201.png)
+![](docs/model.png)
 
-* `px4_6dof_quadrotor.slx` :
+* `px4_6dof_quadrotor_bus.slx` :
 
 The 6DOF model based on [this](http://www.ritravvenlab.com/uploads/1/1/8/4/118484574/ferry.pdf) thesis work. 
 
 TODO
-- [ ] Add position and velocity controllers.
+- [ ] Add attitude, position and velocity controllers.
 - [x] Convert signals to bus elements.
 - [ ] Add INS model.
 - [ ] Add EKF based on px4 architecture.
